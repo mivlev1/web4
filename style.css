@@ -1,3 +1,59 @@
-.container_fluid{
-    background-color: firebrick;
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(163,226,197);
 }
+header img{
+    float:left;
+    height: 110px;
+    width:90px;
+}
+header{
+    background-color: rgb(245,245,245,0.7); 
+    height: 120px;
+    box-shadow: 0px 5px 10px 5px rgb(107,186,117,0.75);
+}
+.header__text{
+    background-color: rgb(163,226,197);
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container__urls a{
+    text-decoration: none;
+    color: #0f7afc; 
+    color:black;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(15, 122, 252, 0.2); 
+}
+
+.container__urls a:hover{
+    border-bottom: 1px solid;
+    text-decoration: none;
+    color:#cf0000;
+    border-bottom-color: rgba(208, 64, 0, 0.2);
+}
+.container__urls a:visited{
+    text-decoration: none;
+    color: #800080;  
+    border-bottom-color: rgba(128, 0, 128, 0.2);
+}
+nav a{
+  background-color: rgb(107,186,117,0.5);
+}
+table,th,td{
+    border: 1px solid brown;
+    border-color: black;
+}
+tbody tr:nth-child(odd){
+    background-color: whitesmoke;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(151, 241, 151);
+}
+footer{
+    background-color: rgb(245,245,245,0.7); 
+    height: 65px;
+    box-shadow: 10px 0px 20px 5px rgb(107,186,117,0.75);
+}
+
